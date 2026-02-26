@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Sujith Kandagatla | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Sai Sujith Kandagatla - Backend Developer (Java, Spring Boot) with strong backend skills and experience in building secure microservices."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="brand">
+          <span class="brand-logo">SK</span>
+          <span class="brand-text">Sai Sujith</span>
+        </div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#dsa">DSA & Coding</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle-thumb"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="hero-kicker">Backend Developer • Problem Solver</p>
+            <h1>
+              Hi, I'm <span class="accent">Sai Sujith Kandagatla</span>
+            </h1>
+            <p class="hero-subtitle">
+              Systems Engineer at TCS specializing in Java, Spring Boot, secure microservices,
+              and DB-driven backends, with a strong foundation in Data Structures &amp; Algorithms
+              and a focus on writing clean, reliable code.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn primary">Hire Me</a>
+              <a href="#dsa" class="btn ghost">View Coding Profiles</a>
+            </div>
+            <div class="hero-meta">
+              <span>📍 Hyderabad, India</span>
+              <span>📧 <a href="mailto:saisujithkandagatla1843@gmail.com">saisujithkandagatla1843@gmail.com</a></span>
+              <span>📱 <a href="tel:+919618468496">+91 9618468496</a></span>
+            </div>
+          </div>
+          <div class="hero-photo-wrapper">
+            <!-- Replace src with your own image path inside /assets when you add it -->
+            <div class="hero-photo-border">
+              <img
+                src="assets/profile.jpg"
+                alt="Portrait of Sai Sujith Kandagatla"
+                class="hero-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container section-grid">
+          <div>
+            <h2>About</h2>
+            <p>
+              I'm a backend-focused Software Engineer with experience building secure, scalable REST APIs
+              and microservices using Java, Spring Boot, Spring Security, and PostgreSQL. I enjoy
+              designing clean architectures, optimizing database queries, and ensuring that services
+              are reliable and observable.
+            </p>
+            <p>
+              Alongside backend engineering, I have a strong foundation in Data Structures &amp;
+              Algorithms and hands-on experience with Machine Learning using Python, scikit-learn,
+              pandas, and numpy.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="pill-card">
+              <h3>Current Role</h3>
+              <p>Systems Engineer @ Tata Consultancy Services (Nov 2024 – Present)</p>
+            </div>
+            <div class="pill-card">
+              <h3>Education</h3>
+              <p>B.Tech CSE (AI &amp; ML), Guru Nanak Institute of Technology, 2020–2024 (CGPA: 7.5)</p>
+            </div>
+            <div class="pill-card">
+              <h3>Core Strength</h3>
+              <p>Backend Engineering, DSA, and clean, testable code.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section alt" id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Languages</h3>
+              <p>C / C++, Python, Java</p>
+            </div>
+            <div class="skill-card">
+              <h3>Backend &amp; Frameworks</h3>
+              <p>Spring Boot, Spring Security, REST APIs, Microservices, JWT Authentication</p>
+            </div>
+            <div class="skill-card">
+              <h3>Databases &amp; ORM</h3>
+              <p>PostgreSQL, MongoDB, JPA / Hibernate</p>
+            </div>
+            <div class="skill-card">
+              <h3>Tools &amp; Testing</h3>
+              <p>Git, Postman, Swagger, JUnit, Mockito</p>
+            </div>
+            <div class="skill-card">
+              <h3>ML &amp; Data</h3>
+              <p>scikit-learn, pandas, numpy, matplotlib</p>
+            </div>
+            <div class="skill-card">
+              <h3>Problem Solving</h3>
+              <p>Data Structures &amp; Algorithms, Competitive Programming</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <header class="timeline-header">
+                <div>
+                  <h3>Tata Consultancy Services</h3>
+                  <p class="timeline-role">Systems Engineer</p>
+                </div>
+                <span class="timeline-date">Nov 2024 – Present</span>
+              </header>
+              <ul class="timeline-list">
+                <li>Developing REST APIs and microservices using Spring Boot, Java, and PostgreSQL.</li>
+                <li>Optimized JPA/Hibernate queries, improving API response times by 20–30%.</li>
+                <li>Implemented JWT-based authentication and role-based authorization with Spring Security.</li>
+                <li>Working on workflow modules and reporting features following clean architecture principles.</li>
+                <li>Added Swagger documentation and unit tests (JUnit, Mockito) to ensure code quality.</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-header">
+                <div>
+                  <h3>Zithara, Hyderabad</h3>
+                  <p class="timeline-role">Software Development Engineer Intern</p>
+                </div>
+                <span class="timeline-date">Mar 2024 – May 2024</span>
+              </header>
+              <ul class="timeline-list">
+                <li>
+                  Developed backend RESTful APIs using Java and Spring Boot for a jeweler’s application with secure
+                  authentication and authorization.
+                </li>
+                <li>Designed PostgreSQL database models with JPA/Hibernate ensuring data consistency.</li>
+                <li>Improved backend efficiency by structuring service layers and optimizing API responses.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section alt" id="projects">
+        <div class="container">
+          <h2>Selected Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Backend User Management API</h3>
+              <p class="project-meta">Spring Boot • JWT • PostgreSQL • Spring Security</p>
+              <p>
+                Backend service with JWT-based authentication, basic role-based access control, and stateless REST APIs.
+                Implemented secure registration &amp; login flows, protected endpoints using Spring Security filters,
+                and used PostgreSQL with JPA/Hibernate for persistent storage.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>Face &amp; Eye Detection</h3>
+              <p class="project-meta">Flask • OpenCV • Python</p>
+              <p>
+                Real-time face and eye detection web application using OpenCV and Flask, providing live webcam
+                detection via a user-friendly web interface.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>House Price Prediction</h3>
+              <p class="project-meta">Flask • Random Forest • ML</p>
+              <p>
+                Machine learning model using Random Forest Regression and tools like numpy, pandas, and matplotlib,
+                deployed with a Flask web interface achieving ~92% prediction accuracy.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DSA & Coding Profiles -->
+      <section class="section" id="dsa">
+        <div class="container">
+          <h2>DSA &amp; Coding Profiles</h2>
+          <p class="section-intro">
+            I regularly practice Data Structures &amp; Algorithms and competitive programming to stay sharp on
+            problem-solving across arrays, DP, graphs, trees, and more.
+          </p>
+
+          <div class="dsa-grid">
+            <article class="dsa-card">
+              <h3>LeetCode</h3>
+              <p>Active practice focusing on patterns and optimal solutions.</p>
+              <a
+                href="https://leetcode.com/u/Saisujith_Kandagatla/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn secondary"
+              >
+                View LeetCode Profile
+              </a>
+            </article>
+
+            <article class="dsa-card">
+              <h3>GeeksforGeeks</h3>
+              <p>Topic-wise DSA practice and learning using detailed problem discussions.</p>
+              <a
+                href="https://www.geeksforgeeks.org/profile/saisujithkandagatla1843"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn secondary"
+              >
+                View GFG Profile
+              </a>
+            </article>
+
+            <article class="dsa-card">
+              <h3>HackerRank</h3>
+              <p>Coding challenges and contests to build speed and accuracy.</p>
+              <a
+                href="https://www.hackerrank.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn secondary"
+              >
+                (Add your direct HackerRank link here)
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              Interested in working together, hiring for backend roles, or just want to discuss system design and DSA?
+              Feel free to reach out.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>Email:</span>
+                <a href="mailto:saisujithkandagatla1843@gmail.com">saisujithkandagatla1843@gmail.com</a>
+              </li>
+              <li>
+                <span>Phone:</span>
+                <a href="tel:+919618468496">+91 9618468496</a>
+              </li>
+              <li>
+                <span>Location:</span>
+                Hyderabad, India
+              </li>
+            </ul>
+          </div>
+          <div class="contact-links">
+            <h3>Online Profiles</h3>
+            <a
+              href="https://github.com/Saisujith1843"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-pill"
+            >
+              GitHub &rarr;
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sai-sujith-kandagatla-90117b208/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-pill"
+            >
+              LinkedIn &rarr;
+            </a>
+            <a
+              href="https://leetcode.com/u/Saisujith_Kandagatla/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-pill"
+            >
+              LeetCode &rarr;
+            </a>
+            <a
+              href="https://www.geeksforgeeks.org/profile/saisujithkandagatla1843"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-pill"
+            >
+              GeeksforGeeks &rarr;
+            </a>
+            <a
+              href="https://www.hackerrank.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-pill"
+            >
+              HackerRank &rarr;
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Sai Sujith Kandagatla. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
