@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Sujith Kandagatla | Backend Developer</title>
+  <meta name="description" content="Sai Sujith Kandagatla - Systems Engineer at TCS building secure Java and Spring Boot backends." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      if (!t && window.matchMedia("(prefers-color-scheme: dark)").matches) t = "dark";
+      document.documentElement.dataset.theme = t || "light";
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap bar">
+      <a href="#top" class="logo">Sai Sujith</a>
+      <nav>
+        <a href="#work">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="toggle" aria-label="Switch between light and dark theme"><span id="themeLabel">Dark</span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <h1>
+          <span class="ln"><span>I build backend systems</span></span>
+          <span class="ln"><span>that stay secure and</span></span>
+          <span class="ln"><span>stay up.</span></span>
+        </h1>
+        <p class="lead">
+          I'm Sai Sujith Kandagatla, a Systems Engineer at TCS. I work with Java, Spring Boot and
+          PostgreSQL, and I care about clean APIs, tested code and queries that don't slow down.
+        </p>
+        <div class="actions">
+          <a class="btn solid" href="#contact">Get in touch</a>
+          <a class="btn line" href="#projects">See my projects</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo">
+          <span class="initials" aria-hidden="true">SK</span>
+          <img src="assets/profile1.jpg" alt="Portrait of Sai Sujith Kandagatla" onerror="this.remove()" />
+        </div>
+        <div class="panel" id="panel" aria-label="Summary shown as an API response">
+          <div class="req"><span class="ln2">GET /developers/sai-sujith</span></div>
+          <div class="status"><span class="ln2"><b id="ok">200 OK</b> <i>Hyderabad time <span id="clock">--:--</span></i></span></div>
+<pre><span class="ln2">{</span>
+<span class="ln2">  <em>"role"</em>: "Systems Engineer",</span>
+<span class="ln2">  <em>"company"</em>: "Tata Consultancy Services",</span>
+<span class="ln2">  <em>"stack"</em>: ["Java", "Spring Boot", "PostgreSQL"],</span>
+<span class="ln2">  <em>"auth"</em>: "JWT + Spring Security",</span>
+<span class="ln2">  <em>"open_to"</em>: "backend roles"</span>
+<span class="ln2">}</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap facts" aria-label="Highlights">
+      <p><strong>20–30%</strong> faster API responses after tuning JPA/Hibernate queries at TCS</p>
+      <p><strong>~92%</strong> prediction accuracy on my Random Forest house price model</p>
+      <p><strong>B.Tech CSE (AI &amp; ML)</strong> from Guru Nanak Institute of Technology, 2024</p>
+    </section>
+
+    <section class="wrap block" id="work">
+      <h2>Where I've worked</h2>
+      <div class="jobs">
+        <article class="job">
+          <p class="when">Nov 2024 – now</p>
+          <div>
+            <h3>Systems Engineer, Tata Consultancy Services</h3>
+            <ul>
+              <li>Build REST APIs and microservices with Spring Boot, Java and PostgreSQL.</li>
+              <li>Tuned JPA/Hibernate queries, cutting API response times by 20–30%.</li>
+              <li>Added JWT authentication and role-based authorization with Spring Security.</li>
+              <li>Work on workflow and reporting modules, documented with Swagger and covered by JUnit and Mockito tests.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="job">
+          <p class="when">Mar – May 2024</p>
+          <div>
+            <h3>Software Development Engineer Intern, Zithara</h3>
+            <ul>
+              <li>Built secure REST APIs in Java and Spring Boot for a jeweller's application.</li>
+              <li>Designed PostgreSQL data models with JPA/Hibernate to keep data consistent.</li>
+              <li>Structured the service layers and trimmed API responses to improve efficiency.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap block" id="projects">
+      <h2>Things I've built</h2>
+      <div id="projectList"></div>
+    </section>
+
+    <section class="wrap block" id="skills">
+      <h2>What I work with</h2>
+      <dl class="skills">
+        <div><dt>Backend</dt><dd>Java, Spring Boot, Spring Security, REST APIs, Microservices, JWT</dd></div>
+        <div><dt>Data</dt><dd>PostgreSQL, MongoDB, JPA / Hibernate</dd></div>
+        <div><dt>Languages</dt><dd>Java, Python, C / C++</dd></div>
+        <div><dt>Tooling</dt><dd>Git, Postman, Swagger, JUnit, Mockito</dd></div>
+        <div><dt>ML</dt><dd>scikit-learn, pandas, numpy, matplotlib</dd></div>
+      </dl>
+      <p class="dsa">
+        I also practise data structures and algorithms regularly on
+        <a href="https://leetcode.com/u/Saisujith_Kandagatla/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+        and
+        <a href="https://www.geeksforgeeks.org/profile/saisujithkandagatla1843" target="_blank" rel="noopener noreferrer">GeeksforGeeks</a>.
+      </p>
+    </section>
+
+    <section class="wrap block contact" id="contact">
+      <h2>Let's talk</h2>
+      <p class="lead">Hiring for a backend role, or want to talk system design? Write to me.</p>
+      <a class="mail" href="mailto:saisujithkandagatla1843@gmail.com">saisujithkandagatla1843@gmail.com</a>
+      <p class="links">
+        <a href="tel:+919618468496">+91 9618468496</a>
+        <a href="https://github.com/Saisujith1843" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sai-sujith-kandagatla-90117b208/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>&copy; <span id="year"></span> Sai Sujith Kandagatla. Hyderabad, India.</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
