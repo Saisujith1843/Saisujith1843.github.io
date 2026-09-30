@@ -59,11 +59,11 @@ nav a:hover { color: var(--ink); }
 
 /* Hero */
 .hero {
-  display: grid; grid-template-columns: 1.15fr 1fr; gap: 3.5rem; align-items: center;
+  display: grid; grid-template-columns: 1.4fr 0.85fr; gap: 3.5rem; align-items: center;
   padding: 4.5rem 0 3.5rem;
 }
 h1 {
-  font-size: clamp(2.5rem, 5.6vw, 4.6rem);
+  font-size: clamp(2.2rem, 4.4vw, 3.7rem);
   line-height: 1.02; letter-spacing: -0.035em; font-weight: 700; margin: 0 0 1.5rem;
 }
 .ln { display: block; overflow: hidden; padding-bottom: 0.08em; }
@@ -82,9 +82,9 @@ h1 {
 .btn.solid { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .btn.line:hover { background: var(--ink); color: var(--bg); }
 
-.hero-visual { position: relative; padding-bottom: 5.5rem; }
+.hero-visual { position: relative; }
 .photo {
-  position: relative; width: 78%; margin-left: auto; aspect-ratio: 3 / 4;
+  position: relative; width: 100%; max-width: 360px; margin-left: auto; aspect-ratio: 3 / 4;
   border-radius: 14px; overflow: hidden; background: var(--line);
   display: grid; place-items: center;
 }
@@ -92,19 +92,19 @@ h1 {
 .initials { font-size: 5rem; font-weight: 700; color: var(--muted); letter-spacing: -0.04em; }
 
 .panel {
-  position: absolute; left: 0; bottom: 0; width: 88%;
+  margin-top: 2.2rem; width: 100%; max-width: 30rem;
   background: var(--panel); color: var(--panel-ink);
-  border-radius: 12px; padding: 1.1rem 1.3rem;
-  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.78rem; line-height: 1.75;
+  border-radius: 12px; padding: 0.9rem 1.1rem;
+  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.74rem; line-height: 1.6;
   box-shadow: 0 24px 50px -20px rgba(0, 0, 0, 0.55);
 }
 .panel .req { color: #8fa197; }
 .panel .status { margin-bottom: 0.4rem; }
 .panel .status i { font-style: normal; color: #8fa197; margin-left: 0.6rem; }
 .panel b { color: var(--ok); font-weight: 500; }
-.panel pre { margin: 0; font: inherit; white-space: pre-wrap; }
+.panel pre { margin: 0; font: inherit; white-space: normal; }
 .panel em { font-style: normal; color: var(--key); }
-.panel .ln2 { display: block; transition: opacity 0.3s, transform 0.3s; }
+.panel .ln2 { display: block; white-space: pre-wrap; transition: opacity 0.3s, transform 0.3s; }
 .panel.typing .ln2 { opacity: 0; transform: translateY(4px); }
 .panel.typing .ln2.on { opacity: 1; transform: none; }
 
@@ -166,6 +166,7 @@ h3 { font-size: 1.25rem; letter-spacing: -0.015em; margin: 0 0 0.6rem; line-heig
   nav { display: none; }
   .bar { justify-content: space-between; }
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; }
+  .photo { margin-inline: auto; max-width: 320px; }
   .facts { grid-template-columns: 1fr; gap: 1.4rem; }
   .job, .skills > div, .proj { grid-template-columns: 1fr; gap: 0.4rem; }
   .proj:hover h3 { transform: none; }
